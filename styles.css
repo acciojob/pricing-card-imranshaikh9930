@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+
+.card-wrapper{
+	display:grid;
+	place-items:center;
+	background:gray;
+	width:23rem;
+	height:35rem;
+	border-radius:1rem;
+	overflow:hidden;
+	
+}
+
+.card{
+	display:grid;
+	place-items:center;
+	background:grey;
+	margin-top:-4rem
+	width:100%;
+	position:relative;
+	
+}
+img{
+	width:80%;
+	height:45%;
+	position:relative;
+	top:-7rem;
+	object-fit:cover
+}
+h1{
+	margin-top:-16rem;
+	font-size:3rem;
+}
+.card-price{
+	position:relative;
+	top:-12.5rem;
+	font-size:1.8rem;
+	font-weight:520;
+}
+.card-description{
+	position:relative;
+	top:-12rem;
+	text-align:center;
+	letter-spacing:-0px;
+	font-size:1.8rem;
+	font-weight:520;
+}
+
+button{
+	position:relative;
+	top:-10rem;
+	padding:15px 25px;
+	border-radius:10px;
+	background:#FF6347;
+	color:#fff;
+	font-size:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
