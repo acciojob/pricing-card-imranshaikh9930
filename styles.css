@@ -5,7 +5,7 @@
 	place-items:center;
 	background:gray;
 	width:23rem;
-	height:35rem;
+	height:auto;
 	border-radius:1rem;
 	overflow:hidden;
 	
@@ -38,24 +38,25 @@ h1{
 	font-weight:520;
 }
 .card-description{
-	position:relative;
-	top:-12rem;
+	margin-top:-18rem;
 	text-align:center;
 	letter-spacing:-0px;
 	font-size:1.8rem;
 	font-weight:520;
+	padding:15px;
 }
 
 button{
-	position:relative;
-	top:-10rem;
+	margin-bottom:-20rem;
 	padding:15px 25px;
 	border-radius:10px;
 	background:#FF6347;
 	color:#fff;
 	font-size:2rem;
 }
-
+.card-button{
+	padding:12px 0 ;
+}
 
 
 
